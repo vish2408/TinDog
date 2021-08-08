@@ -1,0 +1,179 @@
+body{
+    font-family: "Montserrat";
+}
+
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+}
+h1{
+    font-family: "Montserrat";
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+h2{
+    font-family: "Montserrat";
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+p{
+    font-family: "Montserrat-Bold";
+    color: grey;
+}
+.container-fluid {
+    padding: 3% 15% 7%;
+    
+
+}
+.content{
+    margin-bottom: 20px;
+}
+.main-content{
+    margin-bottom: 30px;
+}
+.navbar{
+    padding-bottom: 0 0 4.5rem;
+}
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 18px;
+
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat-light";
+}
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+.img{
+    position: relative;
+    left: 10%;
+    
+}
+.title-img{
+    width: 60%;
+    
+    transform: rotate(25deg);
+    position: absolute;
+    
+    
+}
+
+#features{
+    padding: 7% 15%;
+   background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover{
+    color: #ff4c68;
+}
+
+#testimonials{
+    
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.carousel-item{
+
+    padding: 7% 15%;
+}
+
+.pricing-card{
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+.card-size{
+    padding-bottom: 41px;
+}
+.sign-up{
+    margin-top: 20px;
+}
+
+#pricing{
+    padding : 100px;
+    text-align: center;
+}
+.pricing-col{
+    padding: 3% 2%;
+}
+
+#cta{
+  background-color: #ff4c68;
+  color: #fff;
+  padding: 7% 15%;
+  text-align: center;  
+}
+.cta-heading{
+    font-family: "Montserrat";
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+}
+.social-logo{
+    margin: 20px 10px;
+}
+.dev{
+    font-family: "Montserrat";
+    font-size: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+
+@media (max-width: 1028px) {
+    #title{
+        text-align: center;
+    } 
+    .title-img{
+        position: static;
+        transform: rotate(0);
+        
+        margin: auto;
+    }
+   
+}
